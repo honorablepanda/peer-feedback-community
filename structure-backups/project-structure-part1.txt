@@ -1,0 +1,160 @@
+├── backupProjectCode.js
+├── backupProjectStructure.js
+├── code-backups
+│   └── code-bundle-1.txt
+├── Commands to run backup scripts.txt
+├── src
+│   ├── components
+│   │   └── community
+│   │       └── ApplicationsOverTimeChart.jsx
+│   ├── contexts
+│   │   └── community
+│   ├── hooks
+│   │   └── community
+│   └── modules
+│       ├── ai-career-agent
+│       │   ├── AIAnalyticsDashboard.jsx
+│       │   ├── AICareerAgentDashboard.jsx
+│       │   ├── CareerAdviceFeed.jsx
+│       │   ├── ChatInterface.jsx
+│       │   ├── ExportConversationLogs.jsx
+│       │   ├── GoalSettingPanel.jsx
+│       │   ├── InterviewPrepAssistant.jsx
+│       │   ├── JobMatchRecommendations.jsx
+│       │   ├── ResumeReviewAssistant.jsx
+│       │   └── SavedInteractionsManager.jsx
+│       ├── ai-content-lab
+│       │   ├── AIContentTipsSidebar.jsx
+│       │   ├── AIOutputPreview.jsx
+│       │   ├── ContentGeneratorDashboard.jsx
+│       │   ├── ContentTemplateSelector.jsx
+│       │   ├── ExportContentOptions.jsx
+│       │   ├── HistoryPanel.jsx
+│       │   ├── MultiOutputComparer.jsx
+│       │   ├── PromptBuilder.jsx
+│       │   ├── SavedContentManager.jsx
+│       │   ├── ToneSelector.jsx
+│       │   └── UploadInputPanel.jsx
+│       ├── application-tracker-crm
+│       │   ├── AIApplicationInsights.jsx
+│       │   ├── ApplicationDetailView.jsx
+│       │   ├── ApplicationFiltersSidebar.jsx
+│       │   ├── ApplicationStageBoard.jsx
+│       │   ├── ApplicationTrackerDashboard.jsx
+│       │   ├── CommunicationLog.jsx
+│       │   ├── ContactManager.jsx
+│       │   ├── ExportApplications.jsx
+│       │   ├── NewApplicationForm.jsx
+│       │   └── SavedSearchesManager.jsx
+│       ├── career-gamification
+│       │   ├── AIChallengeRecommendations.jsx
+│       │   ├── ChallengesList.jsx
+│       │   ├── ExportGameStats.jsx
+│       │   ├── GameStatsSummary.jsx
+│       │   ├── GamificationDashboard.jsx
+│       │   ├── Leaderboard.jsx
+│       │   ├── ProgressBadges.jsx
+│       │   ├── RewardStore.jsx
+│       │   ├── SocialSharingPanel.jsx
+│       │   └── UserAchievementsPanel.jsx
+│       ├── community
+│       │   ├── AdminAnalytics.jsx
+│       │   ├── AIInlineCoach.jsx
+│       │   ├── AIInsightSidebar.jsx
+│       │   ├── CareerXPProgress.jsx
+│       │   ├── CommentEngine.jsx
+│       │   ├── CommentHistory.jsx
+│       │   ├── CommentInputForm.jsx
+│       │   ├── CommunityForum.jsx
+│       │   ├── CommunityLeaderboard.jsx
+│       │   ├── CommunityTrendsOverview.jsx
+│       │   ├── FeedbackGamificationBanner.jsx
+│       │   ├── FeedbackLoop.jsx
+│       │   ├── FeedbackRoomLobby.jsx
+│       │   ├── FeedbackSummaryPanel.jsx
+│       │   ├── PeerGroupSuggestions.jsx
+│       │   ├── RealTimeFeedbackPanel.jsx
+│       │   ├── RolePlaySimulator.jsx
+│       │   ├── ScenarioPlanner.jsx
+│       │   └── WeeklyDigestPreview.jsx
+│       ├── learning-hub
+│       │   ├── AIContentCurator.jsx
+│       │   ├── CourseCatalog.jsx
+│       │   ├── EnrollmentManager.jsx
+│       │   ├── ExportLearningProgress.jsx
+│       │   ├── LearningHistory.jsx
+│       │   ├── LearningHubDashboard.jsx
+│       │   ├── LearningRecommendations.jsx
+│       │   ├── ProgressTracker.jsx
+│       │   ├── SavedCoursesManager.jsx
+│       │   └── UserCertificates.jsx
+│       ├── mock-interview-simulator
+│       │   ├── AIImmediateFeedback.jsx
+│       │   ├── AIResponseExamples.jsx
+│       │   ├── AnswerInputRecorder.jsx
+│       │   ├── InterviewScoreSummary.jsx
+│       │   ├── InterviewSessionDashboard.jsx
+│       │   ├── InterviewTimer.jsx
+│       │   ├── QuestionCategorySelector.jsx
+│       │   ├── QuestionPromptPanel.jsx
+│       │   ├── SavedInterviewSessions.jsx
+│       │   └── SessionProgressTracker.jsx
+│       ├── personalized-career-dashboard
+│       │   ├── AIInsightsWidget.jsx
+│       │   ├── AIRecommendedNextSteps.jsx
+│       │   ├── CareerDashboardMain.jsx
+│       │   ├── CareerDashboardTipsSidebar.jsx
+│       │   ├── CareerStatsSummary.jsx
+│       │   ├── MilestoneTracker.jsx
+│       │   ├── ModuleQuickLinks.jsx
+│       │   ├── SavedGoalsManager.jsx
+│       │   ├── UpcomingTasksPanel.jsx
+│       │   └── UserProgressOverview.jsx
+│       ├── research-insights
+│       │   ├── AIResearchSummary.jsx
+│       │   ├── AIResearchTipsSidebar.jsx
+│       │   ├── CompanyComparisonTool.jsx
+│       │   ├── CompanyInsightsPanel.jsx
+│       │   ├── ExportInsightsOptions.jsx
+│       │   ├── IndustryTrendsOverview.jsx
+│       │   ├── JobMarketDataExplorer.jsx
+│       │   ├── ResearchHistoryPanel.jsx
+│       │   ├── ResearchInsightsDashboard.jsx
+│       │   ├── ResearchQueryBuilder.jsx
+│       │   └── SavedInsightsManager.jsx
+│       ├── salary-intelligence
+│       │   ├── AICompensationInsights.jsx
+│       │   ├── ExportSalaryData.jsx
+│       │   ├── IndustrySalaryTrends.jsx
+│       │   ├── JobRoleSalaryExplorer.jsx
+│       │   ├── LocationSalaryHeatmap.jsx
+│       │   ├── SalaryComparisonChart.jsx
+│       │   ├── SalaryDashboard.jsx
+│       │   ├── SalaryForecast.jsx
+│       │   ├── SalaryNegotiationTips.jsx
+│       │   └── SavedSalaryReports.jsx
+│       ├── skill-gap-analyzer
+│       │   ├── AIRecommendationsWidget.jsx
+│       │   ├── ExportSkillReport.jsx
+│       │   ├── LearningRecommendations.jsx
+│       │   ├── SavedAssessmentsManager.jsx
+│       │   ├── SkillAssessmentForm.jsx
+│       │   ├── SkillComparisonChart.jsx
+│       │   ├── SkillGapDashboard.jsx
+│       │   ├── SkillGapReport.jsx
+│       │   ├── SkillProgressTracker.jsx
+│       │   └── UserSkillProfile.jsx
+│       └── social-content-optimizer
+│           ├── AIRewriteSuggestions.jsx
+│           ├── AudienceTargetingHelper.jsx
+│           ├── ContentInputEditor.jsx
+│           ├── EngagementPredictor.jsx
+│           ├── ExportOptimizedContent.jsx
+│           ├── MultiToneOutputGenerator.jsx
+│           ├── PostLengthChecker.jsx
+│           ├── SavedOptimizedPosts.jsx
+│           ├── SocialContentOptimizerDashboard.jsx
+│           ├── SocialTipsSidebar.jsx
+│           └── ToneStyleAnalyzer.jsx
+└── structure-backups
+    └── project-structure-part1.txt
